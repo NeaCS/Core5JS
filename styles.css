@@ -1,0 +1,87 @@
+ body{
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f1f1f1;
+    }
+
+    .contenedor{
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .navbar{
+      background-color: #d9d9d9;
+      padding: 15px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar h1{
+      margin: 0;
+    }
+
+    .buscador{
+      width: 400px;
+      padding: 5px;
+    }
+
+    .boton-login{
+      background-color: #1e90ff;
+      color: white;
+      border: 2px solid black;
+      padding: 5px 15px;
+      cursor: pointer;
+    }
+
+    .contenido{
+      margin-top: 20px;
+
+      display: flex;
+      gap: 20px;
+    }
+
+    .columna-izquierda{
+      flex: 2;
+    }
+
+    .columna-derecha{
+      flex: 1;
+    }
+
+    .tarjeta{
+      background-color: white;
+      border: 2px solid gray;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .tarjeta h2{
+      margin-top: 0;
+    }
+
+    .tipo{
+      font-style: italic;
+    }
+
+    .boton-like{
+      background-color: #ffe680;
+      border: 2px solid black;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    .definicion{
+      background-color: white;
+      border: 2px solid gray;
+      padding: 15px;
+    }
+
+    #boton-agregar{
+      background-color: green;
+      color: white;
+      border: 2px solid black;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
