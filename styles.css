@@ -27,7 +27,7 @@
       padding: 5px;
     }
 
-    .boton-login{
+    #boton-login{
       background-color: #1e90ff;
       color: white;
       border: 2px solid black;
