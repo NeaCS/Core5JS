@@ -1,14 +1,9 @@
 let botonAgregar = document.getElementById("boton-agregar")
-let botonMeGustaCat = document.getElementById("boton-like-cat")
 let botonLogin = document.getElementById("boton-login")
 let botonesLike = document.getElementsByClassName("boton-like")
 
 botonAgregar.addEventListener("click", function () {
   this.remove()
-})
-
-botonMeGustaCat.addEventListener("click", function () {
-  alert("Gato Atigrado was liked")
 })
 
 botonLogin.addEventListener("click", function () {
@@ -18,9 +13,13 @@ botonLogin.addEventListener("click", function () {
 for (let i = 0; i < botonesLike.length; i++) {
   botonesLike[i].addEventListener("click", function () {
     let numeroLikes = parseInt(this.innerHTML)
-
-    numeroLikes++
-
+    numeroLikes = numeroLikes + 1
     this.innerHTML = numeroLikes + " me gusta"
+    if (i === 0) {
+      alert("Gato Atigrado was liked")
+    } else {
+      alert("Golden Retriever was liked")
+    }
   })
 }
+
